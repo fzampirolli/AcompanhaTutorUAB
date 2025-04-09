@@ -1,0 +1,13 @@
+Nome,Email,Grupo,Tutor1,Tutor2,Tutor3
+Nome Aluno Um,aluno1@ufabc.edu.br,Grupo_Nome_Tutor1,Nome Tutor Um,,
+Nome Aluno Dois,aluno2@ufabc.edu.br,Grupo_Nome_Tutor1,Nome Tutor Um,,
+Nome Tutor Um,tutor1@ufabc.edu.br,Grupo_Nome_Tutor1,Nome Tutor Um,,
+Nome Aluno Tres,aluno3@ufabc.edu.br,Grupo_Nome_Tutor2,Nome Tutor Dois,,
+Nome Aluno Quadro,aluno4@ufabc.edu.br,Grupo_Nome_Tutor2,Nome Tutor Dois,,
+Nome Tutor Dois,tutor2@ufabc.edu.br,Grupo_Nome_Tutor2,Nome Tutor Dois,,
+Nome Aluno Cinco,aluno5@ufabc.edu.br,Grupo_Nome_Tutor3,Nome Tutor Tres,,
+Nome Aluno Seis,aluno6@ufabc.edu.br,Grupo_Nome_Tutor3,Nome Tutor Tres,,
+Nome Tutor Tres,tutor3@ufabc.edu.br,Grupo_Nome_Tutor3,Nome Tutor Tres,,
+Nome Tutor Um,tutor1@ufabc.edu.br,Tutores,,,
+Nome Tutor Dois,tutor2@ufabc.edu.br,Tutores,,,
+Nome Tutor Tres,tutor3@ufabc.edu.br,Tutores,,,

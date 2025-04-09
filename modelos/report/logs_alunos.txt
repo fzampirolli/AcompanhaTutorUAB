@@ -1,0 +1,14 @@
+### Lista de Alunos sem repetição para cada Tutor(a)
+
+Tutor(a): Nome Tutor Dois  (Grupo_Nome_Tutor2)
+ 1. Nome Aluno Quatro
+ 2. Nome Aluno Tres
+
+Tutor(a): Nome Tutor Tres  (Grupo_Nome_Tutor3)
+ 1. Nome Aluno Cinco
+ 2. Nome Aluno Seis
+
+Tutor(a): Nome Tutor Um  (Grupo_Nome_Tutor1)
+ 1. Nome Aluno Dois
+ 2. Nome Aluno Um
+
