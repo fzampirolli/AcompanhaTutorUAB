@@ -209,15 +209,15 @@ GNU General Public License for more details.
                     <label for="emailMessage" style="color: #444;">Mensagem:</label><br>
                     <textarea name="emailMessage" id="emailMessage" rows="6" style="width: 100%; margin-bottom: 10px;"
                         placeholder="Insira a mensagem para os tutores aqui...">
-                        Prezado(a) Tutor(a),
+Prezado(a) Tutor(a),
 
-Encaminho, abaixo, o gráfico de barras com o status das atividades corrigidas da disciplina YY, atualizado até xx/xx/2025.
+Encaminho, em anexo, o gráfico de barras com o status das atividades corrigidas da disciplina YY, atualizado até xx/xx/2025.
 
 Informações importantes:
 
-Alunos destacados em rosa no gráfico ainda aguardam correção das atividades. Caso não tenham enviado a atividade, é necessário realizar busca ativa.
+  1. Alunos destacados em rosa no gráfico ainda aguardam correção das atividades. Caso não tenham enviado a atividade, é necessário realizar busca ativa.
 
-Alunos destacados em cinza não constam com entrega registrada no Moodle, mas estão vinculados ao grupo/polo. Esses casos requerem contato para verificar a situação de ausência no curso.
+  2. Alunos destacados em cinza não constam com entrega registrada no Moodle, mas estão vinculados ao grupo/polo. Esses casos requerem contato para verificar a situação de ausência no curso.
 
 Lembro que todas as atividades entregues devem ser corrigidas em até 72 horas, garantindo retorno pedagógico adequado aos estudantes.
 
