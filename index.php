@@ -1,27 +1,27 @@
 <!--
 =====================================================================
 Copyright (C) 2024-2025 Francisco de Assis Zampirolli
-from Federal University of ABC and individual contributors.
-All rights reserved.
+da Universidade Federal do ABC e colaboradores individuais.
+Todos os direitos reservados.
 
-This file is part of Acompanh@TutorUAB v.0.1
+Este arquivo faz parte do Acompanh@TutorUAB v.0.1
 
-Languages: Python, PHP, Bash and many libraries described at
-github.com/fzampirolli/Acompanh@TutorUAB
+Linguagens: Python, PHP, Bash e diversas bibliotecas descritas em
+github.com/fzampirolli/AcompanhaTutorUAB
 
-You should cite some references included in vision.ufabc.edu.br
-in any publication about it.
+Referências relevantes estão disponíveis em vision.ufabc.edu.br.
+Favor citá-las em qualquer publicação relacionada.
 
-Acompanh@TutorUAB is free software: you can redistribute it and/or modify
-it under the terms of the GNU Affero General Public License
-(gnu.org/licenses/agpl-3.0.txt) as published by the Free Software
-Foundation, either version 3 of the License, or (at your option)
-any later version.
+Acompanh@TutorUAB é um software livre: você pode redistribuí-lo e/ou
+modificá-lo sob os termos da Licença Pública Geral Affero GNU,
+como publicada pela Free Software Foundation, versão 3 da Licença
+ou (a seu critério) qualquer versão posterior.
 
-Acompanh@TutorUAB is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+Este sistema é distribuído na esperança de que seja útil,
+mas SEM NENHUMA GARANTIA; sem sequer a garantia implícita de
+COMERCIALIZAÇÃO ou ADEQUAÇÃO A UM DETERMINADO PROPÓSITO. Veja a
+Licença Pública Geral GNU para mais detalhes:
+gnu.org/licenses/agpl-3.0.txt
 =====================================================================
 -->
 
@@ -31,7 +31,7 @@ GNU General Public License for more details.
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia para Acompanhar Atividades dos Tutores no Moodle</title>
+    <title>Guia para Acompanhamento das Atividades dos Tutores no Moodle</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -121,7 +121,7 @@ GNU General Public License for more details.
 <body>
 
     <div class="container">
-        <h1>Guia para Acompanhar Atividades dos Tutores no Moodle</h1>
+        <h1>Guia para Acompanhamento das Atividades dos Tutores no Moodle</h1>
 
         <hr />
 
@@ -130,49 +130,46 @@ GNU General Public License for more details.
             <a href="modelos/uploads/" target="_blank" rel="noopener noreferrer">uploads</a>.
             <!-- Os arquivos gerados a partir desses modelos estão na pasta
         <a href="modelos/report/" target="_blank" rel="noopener noreferrer">report</a>. -->
-            A seguir, resume os passos necessários para obter ou alterar esses arquivos no Moodle.
-            Ao final desta página, você poderá gerar relatórios automaticamente.
+            A seguir, resumem-se os passos necessários para obter ou alterar esses arquivos no Moodle.
             <a href="https://youtu.be/HLIRELvEKcs" target="_blank" rel="noopener noreferrer">Assista ao vídeo
                 explicativo</a>.
         </h4>
 
         <hr />
 
-        <h2>1) Atualizar a lista de tutores e seus alunos</h2>
+<h2>1) Atualizar a lista de tutores e seus alunos</h2>
+
+<h3>Arquivo: <code>tutores.JSON</code> (criar apenas uma vez por disciplina)</h3>
+
+<p>Copie os dados de <b>Participantes</b> &rarr; <b>Grupos (Visão Geral)</b> e cole no dicionário, seguindo exatamente o formato do arquivo modelo
+<code><a href="modelos/uploads/tutores.json" target="_blank">tutores.json</a></code>.</p>
+
+<h2>2) Analisar feedbacks dos tutores na área de Notas</h2>
+
+<h3>Arquivo: <code>notas.ODS</code></h3>
+
+<ol>
+    <li>Acesse <b>Notas</b> &rarr; <b>Relatório de Notas</b> &rarr; <b>Exportar</b>.</li>
+    <li>Desmarque todas as opções e selecione apenas a(s) atividade(s) que deseja analisar.</li>
+    <li>Em <b>Opções de formato de exportação</b>, marque <b>Incluir avaliação na exportação</b>.</li>
+    <li>Escolha a opção <b>Download</b>.</li>
+    <li>Renomeie o arquivo, removendo espaços do nome para evitar erros.</li>
+</ol>
 
 
-        <h3>Arquivo: tutores.JSON (criar apenas uma vez por disciplina)</h3>
+<h2>3) Analisar alunos por tutor(a) por meio do log da atividade no Moodle</h2>
 
-        <p>Copiar e colar de Participantes + Grupos (Visão Geral) no dicionário (ver modelo <a
-                href="modelos/uploads/tutores.json" target="_blank">tutores.json</a>). É importante as chaves serem
-            exatamente iguais aos grupos no Moodle.</p>
+<h3>Arquivo: <code>logs.CSV</code> (opcional)</h3>
 
-        <h2>2) Analisar feedbacks dos tutores em Notas</h2>
+<p>Faça o download do log da atividade correspondente na disciplina do Moodle.</p>
 
-        <h3>Arquivo: notas.ODS</h3>
+<ol>
+    <li>Acesse <b>Relatórios</b> &rarr; <b>Logs</b>.</li>
+    <li>Selecione a atividade desejada.</li>
+    <li>Clique em <b>Obter estes logs</b>.</li>
+    <li>Desça até o final da página e clique em <b>Download do CSV</b>.</li>
+</ol>
 
-        <ol>
-            <li>Ir em Notas + Relatório de Notas + Exportar.</li>
-            <li>Desmarcar tudo e marcar apenas a(s) atividade(s) a ser(em) analisada(s).</li>
-            <li>Depois em <b>"Opções de formato de exportação"</b>, marcar <b>"Incluir avaliação na exportação"</b>.
-            </li>
-            <li>Escolher Download. </li>
-        </ol>
-
-
-        <h2>3) Analisar alunos por tutor(a) através do log da atividade no Moodle</h2>
-
-        <h3>Arquivo: logs.CSV (opcional)</h3>
-
-        <p>Fazer download do log retirado da atividade da disciplina do Moodle.</p>
-
-
-        <ol>
-            <li>Relatórios (Logs) +</li>
-            <li>Escolher a atividade +</li>
-            <li>Obter estes logs +</li>
-            <li>Download do csv (final da página)</li>
-        </ol>
 
         <hr />
 
@@ -185,14 +182,14 @@ GNU General Public License for more details.
 
             <form action="upload.php" method="post" enctype="multipart/form-data" onsubmit="showLoader()">
                 <!-- Arquivos obrigatórios -->
-                <label for="jsonFile" style="color: #444;">Arquivo <b>tutores.JSON</b>:</label><br>
+                <label for="jsonFile" style="color: #444;">Arquivo <b><code>tutores.JSON</code></b>:</label><br>
                 <input type="file" name="jsonFile" id="jsonFile" accept=".json" style="margin-bottom: 10px;"><br>
 
-                <label for="odsFile" style="color: #444;">Arquivo <b>notas.ODS</b>:</label><br>
+                <label for="odsFile" style="color: #444;">Arquivo <b><code>notas.ODS</code></b>:</label><br>
                 <input type="file" name="odsFile" id="odsFile" accept=".ods" style="margin-bottom: 20px;"><br>
 
                 <!-- Arquivo opcional -->
-                <label for="csvFile" style="color: #444;">Arquivo <b>logs.CSV</b> (opcional):</label><br>
+                <label for="csvFile" style="color: #444;">Arquivo <b><code>logs.CSV</code></b> (opcional):</label><br>
                 <input type="file" name="csvFile" id="csvFile" accept=".csv" style="margin-bottom: 20px;"><br>
 
                 <hr style="border-color: #ccc;">

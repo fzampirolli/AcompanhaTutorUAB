@@ -1,27 +1,27 @@
 #!/bin/bash
 # =====================================================================
 # Copyright (C) 2024-2025 Francisco de Assis Zampirolli
-# from Federal University of ABC and individual contributors.
-# All rights reserved.
-#
-# This file is part of Acompanh@TutorUAB v.0.1
-#
-# Languages: Python, PHP, Bash and many libraries described at
-# github.com/fzampirolli/Acompanh@TutorUAB
-#
-# You should cite some references included in vision.ufabc.edu.br
-# in any publication about it.
-#
-# Acompanh@TutorUAB is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License
-# (gnu.org/licenses/agpl-3.0.txt) as published by the Free Software
-# Foundation, either version 3 of the License, or (at your option)
-# any later version.
-#
-# Acompanh@TutorUAB is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-# GNU General Public License for more details.
+# da Universidade Federal do ABC e colaboradores individuais.
+# Todos os direitos reservados.
+
+# Este arquivo faz parte do Acompanh@TutorUAB v.0.1
+
+# Linguagens: Python, PHP, Bash e diversas bibliotecas descritas em
+# github.com/fzampirolli/AcompanhaTutorUAB
+
+# Referências relevantes estão disponíveis em vision.ufabc.edu.br.
+# Favor citá-las em qualquer publicação relacionada.
+
+# Acompanh@TutorUAB é um software livre: você pode redistribuí-lo e/ou
+# modificá-lo sob os termos da Licença Pública Geral Affero GNU,
+# como publicada pela Free Software Foundation, versão 3 da Licença
+# ou (a seu critério) qualquer versão posterior.
+
+# Este sistema é distribuído na esperança de que seja útil,
+# mas SEM NENHUMA GARANTIA; sem sequer a garantia implícita de
+# COMERCIALIZAÇÃO ou ADEQUAÇÃO A UM DETERMINADO PROPÓSITO. Veja a
+# Licença Pública Geral GNU para mais detalhes:
+# gnu.org/licenses/agpl-3.0.txt
 # =====================================================================
 
 # Recebe os argumentos
