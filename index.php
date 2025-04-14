@@ -31,7 +31,7 @@ gnu.org/licenses/agpl-3.0.txt
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guia para Acompanhamento das Atividades dos Tutores no Moodle</title>
+    <title>Acompanh@TutorUAB</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -251,8 +251,8 @@ Prof. [Seu Nome]
         <footer style="text-align: center; padding: 20px; font-size: 14px; border-top: 1px solid #dee2e6;">
             <p>
                 Projeto em desenvolvimento e disponível em <a
-                    href="http://educapes.capes.gov.br/handle/capes/972423 ">eduCAPES</a> e <a
-                    href="http://educapes.capes.gov.br/handle/capes/972423">GitHub</a>.
+                    href="http://educapes.capes.gov.br/handle/capes/972423" target="_blank">eduCAPES</a> e <a
+                    href="https://github.com/fzampirolli/AcompanhaTutorUAB" target="_blank">GitHub</a>.
                 Enviar sugestões de melhoria para <a href="mailto:fzampirolli@ufabc.edu.br"
                     style="color: #007bff; text-decoration: none;">fzampirolli@ufabc.edu.br</a>.
             </p>
