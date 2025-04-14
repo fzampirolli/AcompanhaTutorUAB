@@ -220,6 +220,8 @@ Lembro que todas as atividades entregues devem ser corrigidas em até 72 horas, 
 
 Atenciosamente,
 Prof. [Seu Nome]
+
+PS: Não responda para webmctest@ufabc.edu.br, pois este e-mail não é monitorado. Em caso de dúvidas, entre em contato com o seu professor.
 </textarea>
 
                     <label for="emailCc" style="color: #444;">Endereços de Cc separados por vírgula
